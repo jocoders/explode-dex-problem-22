@@ -1,0 +1,28 @@
+[2024-11-12 13:49:08.75] Compiling .... Done! (15.226631s)
+Analyzing contract: /Users/jocoders/Projects/Personal/RARE_SKILLS/hardhat-dex-problem-22/contracts/SetupContract.sol:SetupContract
+[2024-11-12 13:49:23.98] Running slither on .... Done! (2.222706s)
+[2024-11-12 13:49:26.27] [Worker 0] New coverage: 6865 instr, 3 contracts, 1 seqs in corpus
+[2024-11-12 13:49:26.27] [Worker 0] Test limit reached. Stopping.
+[2024-11-12 13:49:26.29] [Worker 3] New coverage: 6865 instr, 3 contracts, 2 seqs in corpus
+[2024-11-12 13:49:26.29] [Worker 3] Test limit reached. Stopping.
+[2024-11-12 13:49:26.30] [Worker 2] New coverage: 6865 instr, 3 contracts, 3 seqs in corpus
+[2024-11-12 13:49:26.30] [Worker 2] Test limit reached. Stopping.
+[2024-11-12 13:49:26.40] [Worker 1] New coverage: 6865 instr, 3 contracts, 4 seqs in corpus
+[2024-11-12 13:49:26.40] [Worker 1] Test limit reached. Stopping.
+[2024-11-12 13:49:26.40] [status] tests: 0/9, fuzzing: 404/100, values: [], cov: 6865, corpus: 4
+token2(): passing
+getSwapPrice_never_reverts(uint256,bool): passing
+dex(): passing
+swap_is_always_same(uint256,uint256,bool): passing
+fuzzAmount(): passing
+adjustAmount(): passing
+token1(): passing
+swap_never_reverts(uint256,bool): passing
+AssertionFailed(..): passing
+
+
+Unique instructions: 6865
+Unique codehashes: 3
+Corpus size: 4
+Seed: 3612111224245253601
+
