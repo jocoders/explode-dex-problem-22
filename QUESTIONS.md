@@ -6,10 +6,10 @@ But getSwapPrice_call_never_reverts does?
 
 The test swap_never_reverts(uint256 amount, bool reverseTokens) fails consistently in Echidna. Specifically, it fails when amount is set to 1 and reverseTokens is false.
 
-Iterations: The failure occurs consistently across multiple iterations with amount = 1.
-Condition: The test fails on the assertion assert(finalBalance == initBalance - amount);
-Despite transferring amount tokens from msg.sender to Dex, the finalBalance does not reflect the expected decrease by amount.
-Observation: The balance of msg.sender remains unchanged after the swap call, causing the assertion to fail.
+- Iterations: The failure occurs consistently across multiple iterations with amount = 1.
+- Condition: The test fails on the assertion assert(finalBalance == initBalance - amount);
+- Despite transferring amount tokens from msg.sender to Dex, the finalBalance does not reflect the expected decrease by amount.
+- Observation: The balance of msg.sender remains unchanged after the swap call, causing the assertion to fail.
 
 ## 3.manipulate_swap
 
