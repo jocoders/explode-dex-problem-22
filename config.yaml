@@ -1,1 +1,3 @@
 testLimit: 50000
+filterBlacklist: true
+filterFunctions: ['SetupContract._swap_tokens_order(bool)', 'SetupContract._transfer_tokens(uint256,uint256)']
