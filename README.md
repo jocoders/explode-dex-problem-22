@@ -130,7 +130,4 @@ function echidna_manipulate_swap() public returns (bool) {
 The `Dex Problem 22` challenge highlights the risks of insecure price calculations in decentralized exchanges. By exploiting the dependency on token balances, this repository demonstrates how attackers can manipulate prices and drain reserves.
 
 This solution uses **Echidna** to identify and exploit the vulnerability, providing a practical demonstration of the importance of secure smart contract design.
-
-```
-
 ```
